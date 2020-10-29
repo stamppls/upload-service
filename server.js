@@ -8,6 +8,6 @@ app.use(cors());
 
 require('./module/route')(app);
 
-app.listen(3000, (req, res) => {
+app.listen(3002, (req, res) => {
     console.log('server is running');
 })
